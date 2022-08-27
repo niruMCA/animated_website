@@ -1,0 +1,123 @@
+
+*{
+	margin: 0;padding: 0; box-sizing: border-box;
+font-family: 'Lemonada', cursive;
+}
+body{
+	width: 100%;
+	height: 100%;
+	background-image: url('image/image1.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+nav{
+		width: 100%;
+		height:15vh	;
+
+background-color:rgba(0,0,0,0.2);
+color: green;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+nav .logo {
+	width: 30%;
+	height: 15vh;
+	text-align: center;
+	display:flex;
+	color: #ffff00;
+justify-content: space-around;
+	background-color:rgba(0,0,8,0.2);
+	font-size:30px;
+}
+
+nav .menu
+{
+	width: 40%;
+	/*background-color: yellow;*/
+	display:flex;
+justify-content: space-around;
+}
+nav .menu a{
+	width: 25%;
+	text-decoration:none;
+	font-weight: bolder;
+
+
+}
+main {
+
+	width: 100%;
+	height: 85vh;
+display: flex;
+justify-content: center;
+align-items: center;
+text-align: center;
+color: white;
+
+
+}
+section{
+
+}
+section h3{
+	font-size: 35px; font-weight: 200; letter-spacing: 3px;
+text-shadow: 1px 1px 2px black;
+}
+
+section h1{
+	font-size: 55px; font-weight: 700; letter-spacing: 2px;
+text-shadow: 2px 1px 5px black;
+text-transform: uppercase;
+}
+
+section p{
+	font-size: 25px; font-weight: 400; letter-spacing: 1px;
+text-shadow: 2px 1px 5px green;
+text-transform: uppercase;
+margin-bottom: 45px;
+}
+ 
+ section a{
+ 	padding: 5px 15px;
+ 	border-radius: 15px;
+ 	outline: #9999ff;
+ 	border-spacing: 7px
+ 	text-transform: uppercase;
+ 	font-size: 13px;
+ 	font-weight: 500;
+ 	letter-spacing: 1px;
+ 	word-spacing: 3px;
+
+ }
+
+  section a.btnone{
+  	background-color:white;
+
+
+  }
+
+  section a.btntwo{
+  	background-color:#00ffff;
+  	
+
+  }
+
+
+
+.change_content:after
+{
+	content: '';
+	animation:changetext 10s infinite linear;
+color:#00ffff;
+}
+
+@keyframes changetext
+{ 
+	0%{content:"nirupam" ;}
+	20%{content:"DEBASISH" ;}
+	35%{content:"ANKUR" ;}
+	65%{content:"AVISHAK" ;}
+	80%{content:"SAIKAT" ;}
+	100%{content:"MOUMITA" ;}
+}
